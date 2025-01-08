@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sevillana&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        html,body{
+        height: 100vh;
+        width: 100vw;
+        }
+        .main{
+            height: 100%;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        /* <-----slide1-----> */
+        .slide1{
+            height: 100%;
+            width: 100%;
+        }
+        /* <-----header-----> */ 
+        .header{
+            height: 10%;
+            width: 100%;
+            background-color: aqua;
+            display: flex;
+        }
+    /* <-----header_left-content-----> */
+        .cater_serv{
+            height: 100%;
+            width: 20%;
+            background-color: white;
+            text-align: center;
+            line-height: 100px;
+            font-family: "Dancing Script", cursive;
+            font-size: 20px;
+            
+        }
+        span{
+            color: orange;
+        }
+    /* <-----header_middle_content-----> */
+
+       
+        .menu{
+            height: 100%;
+            width: 50%;
+            background-color: white;
+        }
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            line-height: 100px;
+
+
+
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        a:hover{
+            color:orange
+
+        }
+    /* <-----header_right-content-----> */
+
+        .search{
+            height: 100%;
+            width: 30%;
+            background-color: white;
+            display: flex;
+        }
+        .search_icon{
+            height:50px;
+            width: 50px;
+            background-color: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            color: black;
+            border-radius: 50%;
+            margin-top: 30px;
+            margin-left: 20px;
+            font-weight: bold;
+            font-size: 20px;
+
+            
+            
+ 
+        }
+        .book_now{
+            height: 60%;
+            width: 200px;
+            background-color: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border-radius: 40px;
+            margin-top: 30px;
+            margin-left: 20px;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+
+
+        }
+        /* <------content in first slide-----> */
+            .main_content{
+                height: 90%;
+                width: 100%;
+                display: flex;
+                
+            }
+            .book_cater{
+                height: 100%;
+                width: 50%;
+                background-color: white;
+                position: relative;
+            }
+            /* <-----first slide_image container------> */
+            .image_content{
+                height: 80%;
+                width: 50%;
+                background-image: url(taest.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:contain;
+                margin-top: 8%;
+
+            }
+            /* <-----welcomebutton-------> */
+            .welocom{
+                height: 40px;
+                width: 300px;
+                margin-left: 130px;
+                border-radius: 20px;
+                margin-top: 270px;
+                border: 2px solid orange;
+                text-align: center;
+                line-height: 40px;
+                font-weight: bold;
+                font-family: "Titillium Web", sans-serif;
+            }
+            .text_book{
+                margin-left: 130px;
+                font-size: 60px;
+                font-family: "Courgette", cursive;
+                margin-top: 15px;
+
+
+
+            }
+            /* <-------booknow_button-----> */
+            .button{
+                height: 50px;
+                width: 150px;
+                background-color: orange;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                border-radius: 40px;
+                margin-top: 20px;
+                margin-left: 130px;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+            }
+            .button:hover{
+                background-color: black;
+                color:white
+            }
+            /* <-------knowmore_button-----> */
+
+            .button2{
+                height: 50px;
+                width: 150px;
+                background-color: orange;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                border-radius: 40px;
+                margin-top: 20px;
+
+                left: 300px;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+            }
+            
+            .button2:hover{
+                background-color: black;
+                color:white
+            }
+            /* <------slide2------> */
+            .slide2{
+                height: 100%;
+                width: 100%;
+                background-color: white;
+                display: flex;
+               
+            }
+            /* <------slide2_leftcontent------> */
+
+
+            .img{
+                height: 100%;
+                width: 50%;
+                background-color: white;
+               
+            }
+            .icon_box{
+                height: 15%;
+                width: 100%;
+                display: flex;
+                background-color: white;
+                
+            }
+            .img_box{
+                height: 70%;
+                width: 70%;
+                margin-top: 15%;
+                margin-left: 20%;
+                border-radius: 20px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover;
+                background-image: url(WhatsApp\ Image\ 2024-09-05\ at\ 12.54.18_c700a992.jpg);
+            } 
+            .about_us{
+                height: 100%;
+                width: 50%;
+                background-color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+            }
+            .button_button{
+                height: 50px;
+                width:150px;
+                margin-top: 16%;
+                margin-left: 20px;
+                border-radius: 30px;
+                text-align: center;
+                border: 2px solid orange;
+                line-height: 50px;
+
+            }
+            /* <------slide2_rightcontent------> */
+
+            .trusted{
+                font-size: 50px;
+                margin-left: 20px;
+                font-weight: bold;
+                font-family: "Dancing Script", cursive;
+                margin-top: 2%;
+
+
+            }
+            .lorem{
+                font-size: 20px;
+                margin-top: 2%;
+                margin-left: 20px;
+                font-family: "Work Sans", sans-serif;
+                font-weight: lighter;
+
+
+
+            }
+            .icon{
+                height: 200px;
+                width: 80%;
+                margin-left: 10%;
+                margin-top: 3%;
+
+
+            }
+            .right_arrow{
+                height: 20%;
+                width: 100%;
+                font-size: 20px;
+                display: flex;
+                padding-top: 3%;
+
+
+
+
+
+            }
+            .fresh{
+                margin-top: -10px;
+                font-size: 15px;
+                margin-top: 1%;
+                margin-left: 7px;
+
+            }
+            .button_about{
+                height: 50px;
+                width:150px;
+                margin-right:100px;
+                margin-top: 20px;
+                margin-left: 20px;
+                background-color:orange;
+                text-align: center;
+                line-height: 50px;
+                border-radius: 30px;
+               
+
+            }
+            .button_about:hover{
+                background-color: black;
+                color: white;
+            }
+            /* <-----slide3---> */
+            .slide3{
+                height: 100%;
+                width: 100%;
+                background: white;
+                display: flex;
+            }
+            /* <------slide3_leftcontent------> */
+
+            .box_main{
+                height: 100%;
+                width: 60%;
+                background-color: white;
+                 display:flex;
+                justify-content: space-around;;
+            }
+            .happy{
+                height: 300px;
+                width: 220px;
+                background-color: orange;
+                margin-top: 30%;
+                border-radius: 10px;
+                text-align: center;
+                padding-top: 20px;
+                font-size: 60px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                
+
+
+            }
+            .happy:hover{
+                height: 330px;
+                width: 240px;
+                translate: 2s all ease;
+
+            }
+            .number{
+                font-size: 40px;
+                padding-top: 20px;
+                color: black;
+                font-weight: bold;
+
+
+            }
+            .word{
+                font-size: 20px;
+                padding-top: 20px;
+                font-weight: bold;
+                color: black;
+
+
+            }
+            /* <------slide3_rightcontent------> */
+
+            .video{
+                height:70%;
+                width: 30%;
+                background-color: rgb(0, 255, 119);
+                margin-top: 7%;
+                margin-left:5% ;
+                border-radius: 10px;
+                border-radius: 20px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover;
+                background-image: url(WhatsApp\ Image\ 2024-09-05\ at\ 12.54.18_c700a992.jpg);
+
+
+            }
+
+           
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="slide1">
+        <!-- <----menu--------------> 
+        <div class="header">
+            <div class="cater_serv">
+               <h1><span>Cater </span>serv</h1>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Event</a></li>
+                        <li><a href="">Menu</a></li>
+                        <li><a href="">Pages</a></li>
+                        <li><a href="">Contact</a></li>
+
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="search">
+                <div class="search_icon">
+                    <i class="ri-search-line"></i>
+                </div>
+                <div class="book_now">
+                    Book Now
+                </div>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="book_cater">
+                <div class="welocom">
+                    WELCOME TO CATERSERV
+                </div>
+                <p class="text_book">Book <span>Cater</span>Serv For<br>
+                    Your Dream Event
+                </p>
+                <div class="button">Book Now</div>
+                <div class="button2">Know More</div>
+
+            </div>
+            <div class="image_content"></div>
+            
+           
+        </div>
+
+    </div>
+    <!-- <-----slide2------------> 
+    <div class="slide2">
+        <div class="img">
+            <div class="img_box">
+            </div>
+        </div>
+        <div class="about_us">
+            <div class="button_button">ABOUT US</div>
+            <p class="trusted">Trusted By 200 + satisfied clients</p>
+            <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quibusdam eligendi dicta temporibus iure, quisquam quis amet beatae illum totam. Doloribus magni recusandae dignissimos aut, debitis voluptatum animi illo soluta error eveniet minusa temporibus perferendis!</p>
+            <!-- <-----icons with text--------> 
+             <div class="icon_box">
+            <div class="icon">
+                   <div class="right_arrow">
+                    <span><i class="ri-arrow-go-forward-fill"></i></span>
+                    <p class="fresh">Fresh and Fast Food Delivery</p>
+                   </div>
+                   <div class="right_arrow">
+                    <span><i class="ri-arrow-go-forward-fill"></i></span>
+                    <p class="fresh">Fresh and Fast Food Delivery</p>
+                   </div>
+            </div>
+            <div class="icon">
+                <div class="right_arrow">
+                    <span><i class="ri-arrow-go-forward-fill"></i></span>
+                 <p class="fresh">Fresh and Fast Food Delivery</p>
+                </div>
+                <div class="right_arrow">
+                 <span><i class="ri-arrow-go-forward-fill"></i></span>
+                 <p class="fresh">Fresh and Fast Food Delivery</p>
+                </div>
+                
+
+         </div>
+         
+        </div>
+        <div class="button_about">ABOUT US <i class="ri-arrow-right-line"></i> </div>
+        
+            
+        </div>
+        
+    </div>
+    <!-- <-----slide3-----> 
+     <div class="slide3">
+        <div class="box_main">
+            <div class="happy"><i class="ri-group-fill"></i>
+                <p class="number">689</p>
+                <p class="word">HAPPY <br>
+                CUSTOMERS</p>
+
+            </div>
+            <div class="happy"><i class="ri-user-settings-fill"></i>
+                <p class="number"> 107</p>
+                <p class="word">EXPERT CHEFS
+                </p></div>
+            <div class="happy">
+                <i class="ri-check-double-line"></i>
+                <p class="number">253</p>
+                <p class="word">EVENTS COMPLETE
+                </p>
+            </div>
+
+        </div>
+        <div class="video">
+            
+        </div>
+     </div>
+</div>
+
+    
+</body>
+</html>
